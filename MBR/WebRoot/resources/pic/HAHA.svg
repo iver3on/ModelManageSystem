@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- 由 Microsoft Visio 11.0, SVG Export, v1.0 生成 HAHA.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="22.8858in" height="8.26772in"
+		viewBox="0 0 1647.78 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st30">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#f2f2f2;fill-opacity:0.6;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st4 {fill:#8f8f8f;fill-opacity:0;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st5 {fill:url(#grad31-15);stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st6 {fill:url(#grad33-21);stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st7 {fill:#333333;fill-opacity:0;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st8 {fill:#00b050;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {fill:#b7dde8;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {fill:#0f233e;font-family:Microsoft YaHei UI;font-size:1.16666em;font-weight:bold}
+		.st11 {font-size:1em}
+		.st12 {fill:#000000;font-family:Microsoft YaHei UI;font-size:1.16666em;font-weight:bold}
+		.st13 {fill:#0070c0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st14 {fill:#ea700d;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st15 {fill:#f2f2f2;font-family:Microsoft YaHei UI;font-size:4.00001em;font-weight:bold}
+		.st16 {fill:#0070c0}
+		.st17 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st18 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st19 {fill:#0070c0;stroke:#0070c0;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;visibility:hidden}
+		.st20 {fill:#ff00ff;fill-opacity:0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;stroke-width:0.24}
+		.st21 {fill:#000000;font-family:Microsoft YaHei UI;font-size:0.75em;font-weight:bold}
+		.st22 {fill:#ffff00;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st23 {fill:#ff0000;font-family:Microsoft YaHei UI;font-size:1.99999em;font-weight:bold}
+		.st24 {fill:#ff0000;font-family:Microsoft YaHei UI;font-size:2.50001em}
+		.st25 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.239976}
+		.st26 {fill:#92d050;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st27 {fill:#ff0000;font-family:Microsoft YaHei UI;font-size:1.5em;font-weight:bold}
+		.st28 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.12}
+		.st29 {fill:#000000;font-family:Microsoft YaHei UI;font-size:4.00001em;font-weight:bold}
+		.st30 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<pattern id="grad31-15" v:fillPattern="31" v:foreground="#ffffff" v:foregroundOpacity="0" v:background="#e6e6e6"
+				v:backgroundOpacity="0" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad28-16)"/>
+			<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad25-17)"/>
+		</pattern>
+		<linearGradient id="grad28-16" v:fillPattern="31" v:foreground="#ffffff" v:foregroundOpacity="0" v:background="#e6e6e6"
+				v:backgroundOpacity="0" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0"/>
+			<stop offset="1" style="stop-color:#e6e6e6;stop-opacity:0"/>
+		</linearGradient>
+		<linearGradient id="grad25-17" v:fillPattern="31" v:foreground="#ffffff" v:foregroundOpacity="0" v:background="#e6e6e6"
+				v:backgroundOpacity="0" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0"/>
+			<stop offset="1" style="stop-color:#e6e6e6;stop-opacity:0"/>
+		</linearGradient>
+		<pattern id="grad33-21" v:fillPattern="33" v:foreground="#333333" v:foregroundOpacity="0" v:background="#000000"
+				v:backgroundOpacity="0" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 1 L 0 0 L 1 0 z" style="fill:url(#grad30-22)"/>
+			<path d="M 0 1 L 1 1 L 1 0 z" style="fill:url(#grad25-23)"/>
+		</pattern>
+		<linearGradient id="grad30-22" v:fillPattern="33" v:foreground="#333333" v:foregroundOpacity="0" v:background="#000000"
+				v:backgroundOpacity="0" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#333333;stop-opacity:0"/>
+			<stop offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<linearGradient id="grad25-23" v:fillPattern="33" v:foreground="#333333" v:foregroundOpacity="0" v:background="#000000"
+				v:backgroundOpacity="0" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#333333;stop-opacity:0"/>
+			<stop offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<pattern id="grad34-37" v:fillPattern="34" v:foreground="#cb2028" v:background="#ff4e3b" x="0" y="0" width="1" height="1"
+				patternContentUnits="objectBoundingBox">
+			<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad30-38)"/>
+			<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad27-39)"/>
+		</pattern>
+		<linearGradient id="grad30-38" v:fillPattern="34" v:foreground="#cb2028" v:background="#ff4e3b" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#cb2028;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#ff4e3b;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad27-39" v:fillPattern="34" v:foreground="#cb2028" v:background="#ff4e3b" x1="1" y1="0" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#cb2028;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#ff4e3b;stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Page-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="流程图" v:index="0"/>
+		<v:layer v:name="网站图形状" v:index="1"/>
+		<v:layer v:name="连接线" v:index="2"/>
+		<v:layer v:name="标注" v:index="3"/>
+		<g id="group6-1" transform="translate(333.675,-126.034)" v:mID="6" v:groupContext="group" v:layerMember="1">
+			<v:custProps>
+				<v:cp v:nameU="Title" v:lbl="标题" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false" v:langID="2052"
+						v:cal="0" v:val="VT4(未知)"/>
+				<v:cp v:nameU="Error" v:lbl="错误" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false" v:langID="2052"
+						v:cal="0" v:val="VT4(未知)"/>
+				<v:cp v:nameU="FileSize" v:lbl="文件大小" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4(未知)"/>
+				<v:cp v:nameU="ModDate" v:lbl="上次修改日期" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4(未知)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="WebDiagramShape" v:prompt="1=Not Link, 2=Link" v:val="VT0(1):26"/>
+				<v:ud v:nameU="HasSubpage" v:prompt="0=no subpage, 1=has subpage" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Button" v:prompt="0=Invisible, 1= Collapse, 2 =Expand" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Error" v:prompt="HTTP status code, 0=None , 1=Unknown" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Discovered" v:prompt="0=Hand dropped, 1=Dropped by the addon as a result of a disovery"
+						v:val="VT0(0):26"/>
+				<v:ud v:nameU="Duplicate" v:prompt="0=Original, 1=Duplicate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IconWidth" v:prompt="" v:val="VT0(3.8400730143709):1"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="ExpanderWidthScale" v:prompt="" v:val="VT0(0.36):26"/>
+				<v:ud v:nameU="ExpanderOffsetScale" v:prompt="" v:val="VT0(0.08):26"/>
+			</v:userDefs>
+			<title>数据库</title>
+			<g id="shape6-2" v:mID="6" v:groupContext="groupContent" v:layerMember="1">
+				<rect x="298.604" y="451.833" width="52.5017" height="10.4" class="st1"/>
+			</g>
+			<g id="shape7-4" v:mID="7" v:groupContext="shape" transform="translate(69.536,0)">
+				<title>工作表.7</title>
+				<rect v:rectContext="foreign" x="0" y="318.79" width="206.949" height="276.485" class="st2"/>
+				<switch>
+					<foreignObject x="-17.1971" y="301.594" width="241.343" height="310.878"
+							requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						<v:foreignData v:orgSize="12408" clip="rect(17.1964 17.1971 17.1964 17.1971)" v:data="data:metafile;base64,
+									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
+									A2wJZHQ="/>
+					</foreignObject>
+					<svg viewBox="0 0 20.96 27" clip="rect(17.1964 17.1971 17.1964 17.1971)" height="310.878" overflow="hidden"
+							preserveAspectRatio="none" width="241.343" x="-17.1971" y="301.594">
+						<defs>
+							<path id="mfid40"
+									d="M6.825,24.765 C6.799,24.763 6.771,24.757 6.744,24.753 C6.771,24.757 6.799,24.763 6.825,24.765 Z"/>
+						</defs>
+						<g>
+							<g text-rendering="geometricPrecision">
+								<g fill="#ffffff">
+									<use xlink:href="#mfid40" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid41"
+												d="M19.01,21.968 C19.01,22.036 19.01,22.089 19.01,22.135 C19.01,22.089 19.01,22.035 19.01,21.968 Z"/>
+									</defs>
+								</g>
+								<g fill="#fcd94e">
+									<use xlink:href="#mfid41" fill-rule="evenodd" stroke="none"/>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid42"
+									d="M18.998,12.719 C19.002,16.626 19.008,20.838 19.01,21.968 C19.008,20.834 19.002,16.624 18.998,12.719 Z"/>
+						</defs>
+						<mask id="mfid43">
+							<use xlink:href="#mfid42" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid44" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid43)">
+									<rect width="20.96" height="27" id="mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<linearGradient id="mfid46" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.048172" x2="0.010542"
+								y2="0.048172" spreadMethod="repeat"
+								gradientTransform="matrix(1, -0, -0, 1, 0.000000000092451, -0.0000000032151)">
+							<stop offset="0" stop-color="#fdedb1"/>
+							<stop offset="1" stop-color="#face1c"/>
+						</linearGradient>
+						<g mask="url(#mfid44)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 18.998, 21.968)">
+									<g fill="url(#mfid46)">
+										<rect x="-0.010417" y="-0.010417" width="0.020958" height="0.11718" stroke="none"/>
+									</g>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid47"
+									d="M19.01,22.135 C19.01,22.206 19.01,22.259 19.01,22.267 C19.01,22.259 19.01,22.207 19.01,22.135 Z"/>
+						</defs>
+						<mask id="mfid48">
+							<use xlink:href="#mfid47" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid49" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid48)">
+									<use xlink:href="#mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<linearGradient id="mfid50" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.0006875" x2="0.010417"
+								y2="0.0006875" spreadMethod="repeat">
+							<stop offset="0" stop-color="#face1c"/>
+							<stop offset="1" stop-color="#fdedb1"/>
+						</linearGradient>
+						<g mask="url(#mfid49)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 19.01, 22.267)">
+									<g fill="url(#mfid50)">
+										<rect x="-0.010417" y="-0.010417" width="0.020833" height="0.022208" stroke="none"/>
+									</g>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid51"
+									d="M1.959,22.267 C1.959,22.261 1.959,22.24 1.959,22.203 C1.959,22.24 1.959,22.261 1.959,22.267 Z"/>
+						</defs>
+						<mask id="mfid52">
+							<use xlink:href="#mfid51" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid53" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid52)">
+									<use xlink:href="#mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<linearGradient id="mfid54" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.00033333" x2="0.010417"
+								y2="0.00033333" spreadMethod="repeat"
+								gradientTransform="matrix(1, -0, -0, 1, 0.00000000011633, -0.000000001165)">
+							<stop offset="0" stop-color="#fdedb1"/>
+							<stop offset="1" stop-color="#face1c"/>
+						</linearGradient>
+						<g mask="url(#mfid53)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 1.959, 22.267)">
+									<g fill="url(#mfid54)">
+										<rect x="-0.010417" y="-0.010417" width="0.020833" height="0.0215" stroke="none"/>
+										<defs>
+											<path id="mfid55"
+													d="M4.931,24.361 C4.647,24.282 4.383,24.195 4.136,24.105 C4.386,24.194 4.646,24.282 4.931,24.361 Z"/>
+										</defs>
+									</g>
+								</g>
+							</g>
+						</g>
+						<g>
+							<g text-rendering="geometricPrecision">
+								<g fill="#fcd94e">
+									<use xlink:href="#mfid55" fill-rule="evenodd" stroke="none"/>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid56"
+									d="M4.931,24.361 C4.647,24.282 4.383,24.195 4.136,24.105 C4.386,24.194 4.646,24.282 4.931,24.361 Z"/>
+						</defs>
+						<mask id="mfid57">
+							<use xlink:href="#mfid56" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid58" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid57)">
+									<use xlink:href="#mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<linearGradient id="mfid59" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.0013333" x2="0.018698"
+								y2="0.0013333" spreadMethod="repeat">
+							<stop offset="0" stop-color="#fdedb1"/>
+							<stop offset="1" stop-color="#face1c"/>
+						</linearGradient>
+						<g mask="url(#mfid58)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 4.136, 24.361)">
+									<g fill="url(#mfid59)">
+										<rect x="-0.010417" y="-0.010417" width="0.029115" height="0.0235" stroke="none"/>
+									</g>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid60"
+									d="M18.998,12.719 C18.992,8.881 18.987,5.345 18.987,5.345 L1.982,5.345 C1.982,5.345 1.966,16.874 1.961,20.896 C1.961,21.573 1.959,22.039 1.959,22.203 L1.959,22.267 C1.959,22.83 2.492,23.348 3.385,23.783 L3.385,5.652 L7.942,5.652 L7.942,24.894 C8.09,24.908 8.225,24.93 8.376,24.943 C8.491,24.953 8.605,24.963 8.722,24.972 C8.792,24.977 8.86,24.984 8.931,24.989 L8.931,24.979 C9.437,25.011 9.951,25.037 10.486,25.037 C15.194,25.037 19.011,23.797 19.011,22.267 L19.011,21.968 C19.008,20.838 19.002,16.626 18.998,12.719 Z M3.439,23.81 C3.42,23.801 3.402,23.792 3.384,23.783 L3.384,23.787 C3.401,23.794 3.422,23.802 3.439,23.81 Z"/>
+						</defs>
+						<mask id="mfid61">
+							<use xlink:href="#mfid60" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid62" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid61)">
+									<use xlink:href="#mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<linearGradient id="mfid63" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.10256" x2="0.18804"
+								y2="0.10256" spreadMethod="repeat">
+							<stop offset="0" stop-color="#face1c"/>
+							<stop offset="1" stop-color="#fff6d3"/>
+						</linearGradient>
+						<g mask="url(#mfid62)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 1.959, 25.037)">
+									<g fill="url(#mfid63)">
+										<rect x="-0.010417" y="-0.010417" width="0.19846" height="0.22596" stroke="none"/>
+										<defs>
+											<path id="mfid64"
+													d="M7.941,24.894 C7.561,24.855 7.178,24.821 6.825,24.765 C7.179,24.821 7.562,24.855 7.941,24.894 Z"/>
+										</defs>
+									</g>
+								</g>
+							</g>
+						</g>
+						<g>
+							<g text-rendering="geometricPrecision">
+								<g fill="#ffffff">
+									<use xlink:href="#mfid64" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid65"
+												d="M4.136,24.105 C4.106,24.092 4.078,24.082 4.049,24.071 C4.078,24.082 4.107,24.092 4.136,24.105 Z"/>
+									</defs>
+									<use xlink:href="#mfid65" fill-rule="evenodd" stroke="none"/>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid66"
+									d="M3.385,5.652 L3.385,23.787 C3.588,23.886 3.813,23.98 4.049,24.071 C4.078,24.082 4.106,24.092 4.136,24.105 C4.383,24.195 4.647,24.282 4.931,24.361 L4.931,24.367 C5.12,24.42 5.327,24.465 5.531,24.512 C5.606,24.531 5.677,24.551 5.755,24.567 C6.071,24.637 6.401,24.7 6.745,24.755 C6.772,24.759 6.8,24.765 6.826,24.767 C7.18,24.823 7.562,24.857 7.942,24.896 L7.942,5.652 L3.385,5.652 Z"/>
+						</defs>
+						<mask id="mfid67">
+							<use xlink:href="#mfid66" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid68" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid67)">
+									<use xlink:href="#mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<linearGradient id="mfid69" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.10023" x2="0.057885"
+								y2="0.10023" spreadMethod="repeat"
+								gradientTransform="matrix(1, -0, -0, 1, -0.0000000027399, -0.0000000028451)">
+							<stop offset="0" stop-color="#face1c"/>
+							<stop offset="1" stop-color="#fff6d3"/>
+						</linearGradient>
+						<g mask="url(#mfid68)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 3.385, 24.896)">
+									<g fill="url(#mfid69)">
+										<rect x="-0.010417" y="-0.010417" width="0.068302" height="0.22129" stroke="none"/>
+										<defs>
+											<path id="mfid70"
+													d="M1.982,4.884 C1.728,4.884 1.523,5.089 1.523,5.344 L1.5,22.267 C1.5,23.322 2.643,24.201 4.807,24.804 C4.807,24.808 5.325,24.937 5.325,24.937 L5.655,25.015 C5.657,25.015 6.673,25.208 6.673,25.208 C6.755,25.221 8.339,25.401 8.339,25.401 C8.432,25.41 8.9,25.449 8.9,25.449 C8.9,25.438 10.484,25.498 10.484,25.498 C14.84,25.498 19.469,24.365 19.469,22.268 L19.447,5.344 C19.447,5.089 19.24,4.884 18.987,4.884 L1.982,4.884 Z M18.528,5.805 C18.529,6.675 18.549,22.267 18.549,22.267 C18.549,23.232 15.482,24.578 10.485,24.578 L8.753,24.512 L8.512,24.493 C8.414,24.485 6.898,24.312 6.898,24.312 C6.819,24.298 5.853,24.117 5.853,24.117 L5.056,23.923 C3.113,23.375 2.421,22.689 2.421,22.268 C2.421,22.268 2.442,6.676 2.442,5.806 C3.097,5.805 17.689,5.805 18.528,5.805 Z"/>
+										</defs>
+									</g>
+								</g>
+							</g>
+						</g>
+						<g>
+							<g text-rendering="geometricPrecision">
+								<g fill="#f5a444">
+									<use xlink:href="#mfid70" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid71"
+												d="M10.484,7.351 C6.093,7.351 2.48,6.271 2.013,4.884 C1.979,4.986 1.959,5.087 1.959,5.189 C1.959,6.718 5.777,7.96 10.484,7.96 C15.192,7.96 19.009,6.718 19.009,5.189 C19.009,5.087 18.989,4.986 18.954,4.884 C18.489,6.271 14.875,7.351 10.484,7.351 Z"/>
+									</defs>
+								</g>
+								<g fill="#f4f4f4">
+									<use xlink:href="#mfid71" fill-rule="evenodd" stroke="none"/>
+									<defs>
+										<path id="mfid72"
+												d="M1.629,4.591 L1.535,4.884 L1.627,5.179 C2.311,7.316 6.567,8.271 10.484,8.271 C14.402,8.271 18.66,7.316 19.341,5.179 L19.434,4.884 L19.341,4.591 C18.66,2.457 14.402,1.5 10.484,1.5 C6.567,1.5 2.311,2.457 1.629,4.591 Z"/>
+									</defs>
+								</g>
+								<g fill="#f5a444">
+									<use xlink:href="#mfid72" fill-rule="evenodd" stroke="none"/>
+								</g>
+							</g>
+						</g>
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<defs>
+							<path id="mfid73"
+									d="M2.506,4.871 C2.506,4.87 2.501,4.884 2.5,4.886 C2.501,4.888 2.506,4.902 2.506,4.902 C2.95,6.297 6.382,7.351 10.484,7.351 C14.588,7.351 18.019,6.297 18.464,4.898 C18.464,4.898 18.469,4.888 18.469,4.886 C18.468,4.884 18.462,4.869 18.462,4.869 C18.02,3.475 14.589,2.42 10.484,2.42 C6.381,2.42 2.95,3.475 2.506,4.871 Z"/>
+						</defs>
+						<mask id="mfid74">
+							<use xlink:href="#mfid73" fill-rule="evenodd" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid75" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid74)">
+									<use xlink:href="#mfid45"/>
+								</g>
+							</g>
+						</mask>
+						<defs>
+							<path id="mfid76" d="M-0.010417,-0.010417 L0.17676,-0.010417 L0.17676,0.061781 L-0.010417,0.061781 Z"/>
+						</defs>
+						<radialGradient id="mfid77">
+							<stop offset="0" stop-color="#face1c"/>
+							<stop offset="1" stop-color="#ffffff"/>
+						</radialGradient>
+						<g mask="url(#mfid75)">
+							<g text-rendering="geometricPrecision">
+								<g transform="matrix(96, 0, 0, -96, 2.5, 7.351)">
+									<g fill="white">
+										<mask id="mfid78" x="-0.010417" y="-0.010417" width="0.18718" height="0.072198"
+												maskUnits="userSpaceOnUse">
+											<rect x="-0.010417" y="-0.010417" width="0.18718" height="0.072198" stroke="none"/>
+										</mask>
+										<use xlink:href="#mfid76" stroke="none" mask="url(#mfid78)" fill="url(#mfid77)"/>
+									</g>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</switch>
+				<rect v:rectContext="foreign" x="0" y="318.79" width="206.949" height="276.485" class="st2"/>
+			</g>
+			<g id="shape8-7" v:mID="8" v:groupContext="shape" v:layerMember="1">
+				<title>工作表.8</title>
+				<rect x="0" y="318.79" width="276.485" height="276.485" class="st3"/>
+			</g>
+			<g id="group9-9" transform="translate(248.837,-88.4753)" v:mID="9" v:groupContext="group" v:layerMember="1">
+				<title>工作表.9</title>
+				<g id="shape10-10" v:mID="10" v:groupContext="shape" v:layerMember="1">
+					<title>工作表.10</title>
+					<rect x="0" y="495.741" width="99.5347" height="99.5347" class="st4"/>
+				</g>
+				<g id="shape11-12" v:mID="11" v:groupContext="shape" v:layerMember="1" transform="translate(5.3593,-5.35368)">
+					<title>工作表.11</title>
+					<rect x="0" y="506.448" width="88.8273" height="88.8273" class="st5"/>
+				</g>
+				<g id="shape12-18" v:mID="12" v:groupContext="shape" v:layerMember="1" transform="translate(18.2913,-44.4474)">
+					<title>工作表.12</title>
+					<rect x="0" y="584.636" width="62.9409" height="10.64" class="st6"/>
+				</g>
+			</g>
+			<g id="group13-24" transform="translate(248.837,-88.4753)" v:mID="13" v:groupContext="group" v:layerMember="1">
+				<title>工作表.13</title>
+				<g id="shape14-25" v:mID="14" v:groupContext="shape" v:layerMember="1">
+					<title>工作表.14</title>
+					<rect x="0" y="495.741" width="99.5347" height="99.5347" class="st4"/>
+				</g>
+				<g id="shape15-27" v:mID="15" v:groupContext="shape" v:layerMember="1" transform="translate(5.3593,-5.34807)">
+					<title>工作表.15</title>
+					<rect x="0" y="506.448" width="88.8273" height="88.8273" class="st5"/>
+				</g>
+				<g id="shape16-30" v:mID="16" v:groupContext="shape" v:layerMember="1" transform="translate(44.4474,-18.2913)">
+					<title>工作表.16</title>
+					<rect x="0" y="532.323" width="10.64" height="62.9521" class="st7"/>
+				</g>
+				<g id="shape17-32" v:mID="17" v:groupContext="shape" v:layerMember="1" transform="translate(18.2913,-44.4474)">
+					<title>工作表.17</title>
+					<rect x="0" y="584.636" width="62.9409" height="10.64" class="st7"/>
+				</g>
+			</g>
+			<g id="shape18-34" v:mID="18" v:groupContext="shape" v:layerMember="1" transform="translate(-34.5607,34.5607)">
+				<title>工作表.18</title>
+			</g>
+		</g>
+		<g id="shape1-40" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(18.24,-18.24)">
+			<title>流程</title>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+			</v:userDefs>
+			<rect x="0" y="76.5354" width="265.225" height="518.74" class="st8"/>
+		</g>
+		<g id="shape2-42" v:mID="2" v:groupContext="shape" transform="translate(54.9052,-379.657)">
+			<title>圆角矩形</title>
+			<desc>铸坯断面尺寸D*T 3.5M*6M</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.106" cy="545.669" width="200.22" height="99.2126"/>
+			<path d="M186.04 595.28 A14.1733 14.1733 -180 0 0 200.21 581.1 L200.21 510.24 A14.1733 14.1733 -180 0 0 186.04 496.06
+						 L14.17 496.06 A14.1733 14.1733 -180 0 0 -0 510.24 L0 581.1 A14.1733 14.1733 -180 0 0 14.17 595.28 L186.04
+						 595.28 Z" class="st9"/>
+			<text x="44.78" y="541.47" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>铸坯断面尺寸<tspan
+						class="st11" v:langID="1033">D</tspan><tspan class="st11" v:langID="1033">*</tspan><tspan class="st11"
+						v:langID="1033">T<v:newlineChar/></tspan><tspan x="67.35" dy="1.2em" class="st11">3</tspan>.5M*6M</text>		</g>
+		<g id="shape4-49" v:mID="4" v:groupContext="shape" transform="translate(54.9052,-65.0117)">
+			<title>圆角矩形.4</title>
+			<desc>拉速 5M/MIN</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.106" cy="544.252" width="200.22" height="102.047"/>
+			<path d="M186.04 595.28 A14.1733 14.1733 -180 0 0 200.21 581.1 L200.21 507.4 A14.1733 14.1733 -180 0 0 186.04 493.23
+						 L14.17 493.23 A14.1733 14.1733 -180 0 0 0 507.4 L0 581.1 A14.1733 14.1733 -180 0 0 14.17 595.28 L186.04
+						 595.28 Z" class="st9"/>
+			<text x="79.11" y="540.05" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>拉速<tspan
+						class="st11" v:langID="1041">Ｖ<v:newlineChar/></tspan><tspan x="69.8" dy="1.2em" class="st11">5</tspan>M/MIN</text>		</g>
+		<g id="shape5-54" v:mID="5" v:groupContext="shape" transform="translate(415.884,-255.369) rotate(-0.0809353) scale(-1,1)">
+			<title>45 度单向箭头</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<path d="M0 572.85 L22.43 550.42 L22.43 565.23 L131.1 565.23 L131.1 580.47 L22.43 580.47 L22.43 595.28 L0 572.85 Z"
+					class="st13"/>
+		</g>
+		<g id="group32-56" transform="translate(1062.99,928.528) scale(1,-1)" v:mID="32" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Scale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>三维框</title>
+			<desc>板坯</desc>
+			<g id="shape33-57" v:mID="33" v:groupContext="shape" transform="translate(0,38.2677)">
+				<title>工作表.33</title>
+				<path d="M0 557.01 L358.71 557.01 L114.93 595.28 L-243.78 595.28 L0 557.01 Z" class="st14"/>
+			</g>
+			<g id="shape34-59" v:mID="34" v:groupContext="shape" transform="translate(-243.78,0)">
+				<title>工作表.34</title>
+				<path d="M0 633.54 L243.78 595.28 L243.78 535.34 L0 573.6 L0 633.54 Z" class="st14"/>
+			</g>
+			<g id="shape35-61" v:mID="35" v:groupContext="shape">
+				<title>工作表.35</title>
+				<rect x="0" y="535.336" width="358.713" height="59.9395" class="st14"/>
+			</g>
+			<g id="shape32-63" v:mID="32" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="179.357" cy="565.306" width="358.72" height="59.9395"/>
+				<text x="131.36" y="-550.91" transform="scale(1,-1)" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>板坯</text>			</g>
+		</g>
+		<g id="group36-65" transform="translate(606.614,-240.945)" v:mID="36" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>二维单向箭头</title>
+			<g id="shape37-66" v:mID="37" v:groupContext="shape">
+				<title>工作表.37</title>
+				<path d="M0 581.1 L201.26 581.1 L201.26 595.28 L215.43 566.93 L201.26 538.58 L201.26 552.76 L0 552.76 L0 581.1 Z"
+						class="st16"/>
+				<path d="M0 581.1 L201.26 581.1 L201.26 595.28 L215.43 566.93 L201.26 538.58 L201.26 552.76 L0 552.76" class="st17"/>
+			</g>
+			<g id="shape38-69" v:mID="38" v:groupContext="shape">
+				<title>工作表.38</title>
+				<path d="M0 581.1 L201.26 581.1 L201.26 595.28 L215.43 566.93 L201.26 538.58 L201.26 552.76 L0 552.76 L0 581.1"
+						class="st18"/>
+			</g>
+			<g id="shape39-72" v:mID="39" v:groupContext="shape" transform="translate(-0.95811,-14.4132)">
+				<title>工作表.39</title>
+				<rect x="0" y="567.409" width="0.48" height="27.8665" class="st19"/>
+			</g>
+		</g>
+		<g id="group40-74" transform="translate(630.709,-297.638)" v:mID="40" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Scale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>按钮</title>
+			<desc>推理</desc>
+			<g id="shape41-75" v:mID="41" v:groupContext="shape">
+				<title>工作表.41</title>
+				<desc>按钮</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="81.4961" cy="566.929" width="163" height="56.6929"/>
+				<rect x="0" y="538.583" width="162.992" height="56.6929" class="st20"/>
+				<text x="72.5" y="569.63" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>按钮</text>			</g>
+			<g id="shape42-78" v:mID="42" v:groupContext="shape">
+				<title>工作表.42</title>
+				<path d="M0 595.28 L0 538.58 L11.34 549.92 L11.34 583.94 L0 595.28 ZM0 538.58 L162.99 538.58 L151.65 549.92 L11.34
+							 549.92 L0 538.58 Z" class="st22"/>
+			</g>
+			<g id="shape43-80" v:mID="43" v:groupContext="shape">
+				<title>工作表.43</title>
+				<path d="M151.65 549.92 L11.34 549.92 L11.34 583.94 L151.65 583.94 L151.65 549.92 ZM162.99 595.28 L0 595.28 L11.34
+							 583.94 L151.65 583.94 L162.99 595.28 ZM162.99 538.58 L162.99 595.28 L151.65 583.94 L151.65 549.92 L162.99
+							 538.58 Z" class="st22"/>
+			</g>
+			<g id="shape40-82" v:mID="40" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="81.4961" cy="566.929" width="140.32" height="34.0157"/>
+				<text x="57.5" y="574.13" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/><a href="javascript:Button4_onclick()"
+           id="ca">推理</a></text>			</g>
+		</g>
+		<g id="shape19-84" v:mID="19" v:groupContext="shape" transform="translate(425.197,-223.752)">
+			<title>工作表.19</title>
+			<desc>核心逻辑</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9528" cy="562.677" width="155.91" height="65.1969"/>
+			<rect x="0" y="530.079" width="155.906" height="65.1969" class="st2"/>
+			<text x="17.95" y="571.68" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>核心逻辑</text>		</g>
+		<g id="shape20-87" v:mID="20" v:groupContext="shape" v:layerMember="2"
+				transform="translate(451.009,-44.0324) rotate(-66.7139) scale(-1,1)">
+			<title>直线-曲线连接线</title>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="Scale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L20.32 587.4 L40.63 582.68 L60.95 581.1 L81.27 582.68 L101.58 587.4 L121.9 595.28" class="st25"/>
+		</g>
+		<g id="shape21-90" v:mID="21" v:groupContext="shape" transform="translate(969.449,-403.982)">
+			<title>圆角矩形.21</title>
+			<desc>起始位置0.53M</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="156.799" cy="571.181" width="313.6" height="48.189"/>
+			<path d="M299.43 595.28 A14.1733 14.1733 -180 0 0 313.6 581.1 L313.6 561.26 A14.1733 14.1733 -180 0 0 299.43 547.09 L14.17
+						 547.09 A14.1733 14.1733 -180 0 0 0 561.26 L0 581.1 A14.1733 14.1733 -180 0 0 14.17 595.28 L299.43 595.28
+						 Z" class="st26"/>
+			<text x="83.32" y="576.58" class="st27" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>起始位置：0.53M</text>		</g>
+		<g id="shape22-93" v:mID="22" v:groupContext="shape" transform="translate(346.759,-394.016)">
+			<title>云形图</title>
+			<desc>模型库</desc>
+			<v:userDefs>
+				<v:ud v:nameU="solsh"/>
+				<v:ud v:nameU="shapetype" v:val="VT0(1):26"/>
+				<v:ud v:nameU="shapelook" v:val="VT0(2):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="159.691" cy="535.748" width="319.39" height="119.055"/>
+			<path d="M118.63 492.61 A50.5526 30.5988 0 0 1 207.82 492.21 A37.1047 22.459 0 0 1 271.64 499.64 A37.3164 22.5871 0 0
+						 1 315.71 511.03 A28.1495 17.0385 0 0 1 300.74 531.69 A31.7895 19.2417 0 0 1 276.35 567.21 A57.2445 34.6493
+						 0 0 1 196.65 585.08 A72.0964 43.639 0 0 1 96.61 580.74 A39.676 24.0153 0 0 1 26.82 561.38 A28.67 17.3536
+						 0 0 1 26.95 526.74 A24.5308 14.8481 0 1 1 46.74 499.58 A38.4563 23.2771 0 0 1 118.63 492.61 Z"
+					class="st28"/>
+			<text x="87.69" y="550.15" class="st29" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>模型库</text>		</g>
+		<g id="shape3-96" v:mID="3" v:groupContext="shape" transform="translate(54.9052,-223.752)">
+			<title>圆角矩形.3</title>
+			<desc>中间包余钢重量WT 2000KG</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.2718" cy="541.417" width="194.55" height="107.717"/>
+			<path d="M180.37 595.28 A14.1733 14.1733 -180 0 0 194.54 581.1 L194.54 501.73 A14.1733 14.1733 -180 0 0 180.37 487.56
+						 L14.17 487.56 A14.1733 14.1733 -180 0 0 -0 501.73 L0 581.1 A14.1733 14.1733 -180 0 0 14.17 595.28 L180.37
+						 595.28 Z" class="st9"/>
+			<text x="36.36" y="537.22" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>中间包余钢重量<tspan
+						class="st11" v:langID="1033">WT<v:newlineChar/></tspan><tspan x="69.8" dy="1.2em" class="st11">2000</tspan>KG</text>		</g>
+		<g id="shape23-101" v:mID="23" v:groupContext="shape" v:layerMember="3" transform="translate(951.024,-292.014)">
+			<title>反大括号</title>
+			<desc>长度:13.5M</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Callout)"/>
+				<v:ud v:nameU="msvSDTargetIntersection" v:prompt="" v:val="VT6(PNT(2.2920015567197,0.11496062692919)):40"/>
+				<v:ud v:nameU="msvSDCalloutNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDCalloutStyle" v:prompt="" v:val="VT0(13):26"/>
+				<v:ud v:nameU="msvSDCalloutStyleCount" v:prompt="" v:val="VT0(20):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Orientation" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="HideLeader" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="AttachToSide" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ResizeWithText" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="Side" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="LeaderBegin" v:prompt="" v:val="VT4(Unused)"/>
+				<v:ud v:nameU="LeaderEnd" v:prompt="" v:val="VT6(PNT(2.2920015567197,0.11496062692919)):40"/>
+				<v:ud v:nameU="WHBoxIntersection" v:prompt="" v:val="VT6(PNT(3.1889763779528,0)):40"/>
+				<v:ud v:nameU="IsEndInterior" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="Extension" v:prompt="" v:val="VT0(0.059055118110236):24"/>
+				<v:ud v:nameU="Inset" v:prompt="" v:val="VT0(-0.044291338582677):24"/>
+				<v:ud v:nameU="SideMidpoint" v:prompt="" v:val="VT6(PNT(1.5944881889764,0)):40"/>
+				<v:ud v:nameU="fnMidpointOffset" v:prompt="" v:val="VT6(PNT(1.5944881889764,0)):40"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="114.803" cy="559.865" width="229.61" height="29.6036"/>
+			<path d="M-0 598.46 A3.18905 3.18905 0 0 1 3.19 595.28 L111.61 595.28 A3.18905 3.18905 -180 0 0 114.8 592.09 A3.18905
+						 3.18905 -180 0 0 117.99 595.28 L226.42 595.28 A3.18905 3.18905 0 0 1 229.61 598.46" class="st18"/>
+			<text x="65.76" y="565.27" class="st27" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>长度:13.5M</text>		</g>
+	</g>
+</svg>

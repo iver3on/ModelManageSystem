@@ -1,0 +1,25 @@
+body{
+	font-family: Microsoft YaHei, SimHei, sans-serif;
+}
+table{
+	font-size: 14px;
+}
+table thead {
+	font-weight: 600;
+}
+#header {
+	background-color: #ECF0F1;
+	margin-bottom: 15px;
+
+}
+#header .my-title{
+	margin-top: 10px;
+}
+#items a:HOVER { /* 鼠标放上去的颜色 */
+	/* color: blue; */
+	text-decoration: none;
+}
+
+#items a:ACTIVE { /* 鼠标按住不放的颜色 */
+	color: blue;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory name="foo">
+		<!-- 配置数据库信息 -->
+		<property name="dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+		<!-- <property name="connection.url">jdbc:mysql:///hibernate_20120328</property> -->
+		<property name="connection.url">
+			jdbc:mysql:///mbr_database?useUnicode=true&amp;characterEncoding=UTF-8
+		</property>
+		<property name="connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+
+		<!-- 其他配置 -->
+		<property name="show_sql">false</property>
+		<property name="format_sql">false</property>
+
+		<!-- create: 先删除，再创建 update: 如果表不存在就创建，不一样就更新，一样就什么都不做 create-drop: 初始化时创建表，SessionFactory执行close()时删除表。 
+			validate: 验证表结构是否一致，如果不一致，就抛异常。 -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- c3p0连接池设定 -->
+		<!-- 使用c3p0连接池 配置连接池提供的供应商 -->
+		<property name="connection.provider_class">
+			org.hibernate.connection.C3P0ConnectionProvider
+		</property>
+		<!-- 在连接池中可用的数据库连接的最少数目 -->
+		<property name="c3p0.min_size">5</property>
+		<!-- 在连接池中所有数据库连接的最大数目 -->
+		<property name="c3p0.max_size">20</property>
+		<!-- 设定数据库连接的过期时间，以秒为单位，如果连接池中的某个数据库连接处于空闲状态的时间超过了timeout时间，就会从连接池中清除 -->
+		<property name="c3p0.timeout">120</property>
+		<!-- 没3000秒检查所有连接池中的空闲连接 以秒为单位 -->
+		<property name="c3p0.idle_test_period">3000</property>
+
+
+		<!-- 指定要使用的缓存的提供商，打开二级缓存 -->
+		<!-- <property name="cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property> -->
+
+		<!-- <property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property> 
+			开启查询缓存 <property name="cache.use_query_cache">true</property> 指定使用二级缓存的实体类 
+			<class-cache usage="read-write" class="com.RBR.javabean.MetaData"/> <collection-cache 
+			usage="read-write" collection="com.RBR.javabean.MetaData.conditionSet"/> 
+			<collection-cache usage="read-write" collection="com.RBR.javabean.MetaData.conclusionSet"/> 
+			<class-cache usage="read-write" class="com.RBR.javabean.Rules"/> <collection-cache 
+			usage="read-write" collection="com.RBR.javabean.Rules.conditionSet"/> <collection-cache 
+			usage="read-write" collection="com.RBR.javabean.Rules.conclusionSet"/> <class-cache 
+			usage="read-write" class="com.RBR.javabean.Condition"/> <class-cache usage="read-write" 
+			class="com.RBR.javabean.Conclusion"/> -->
+	</session-factory>
+</hibernate-configuration>
