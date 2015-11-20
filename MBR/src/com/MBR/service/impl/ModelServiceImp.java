@@ -7,12 +7,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.MBR.dao.MetaDataDao;
+import com.MBR.dao.InputParameterDao;
 import com.MBR.dao.ModelsDao;
-import com.MBR.pojo.MbrMetaData;
+import com.MBR.filter.SessionFilter;
+import com.MBR.pojo.MbrInputParameter;
 import com.MBR.pojo.MbrModelCondition;
 import com.MBR.pojo.MbrModels;
 import com.MBR.service.ModelService;
@@ -23,6 +26,7 @@ import com.MBR.service.ModelService;
  */
 @Service("modelService")
 public class ModelServiceImp implements ModelService {
+	 private static final Log log = LogFactory.getLog(ModelServiceImp.class);  
 	// RBR定义的状态
 	static final int PENDING = 0; // 待审核状态
 	static final int PASSED = 1; // 通过审核
@@ -31,14 +35,14 @@ public class ModelServiceImp implements ModelService {
 	@Autowired
 	private ModelsDao modelDao;
 	@Autowired
-	private MetaDataDao metaDataDao;
+	private InputParameterDao inputParameterDao;
 
 	public String addModelToExam(List<Integer> list, String username, String name) {
 		String result="";
-		List<MbrMetaData> metaDataList = new ArrayList<MbrMetaData>();
+		List<MbrInputParameter> metaDataList = new ArrayList<MbrInputParameter>();
 		for(Integer i:list){
 			System.out.println(i+"rrrrrrrrrrrrr");
-			metaDataList.add(metaDataDao.getMetaDataById(i));
+			metaDataList.add(inputParameterDao.getMetaDataById(i));
 		}
 		List<MbrModels> modelsWithSameInput = getModelsByInput(metaDataList, 1);
 		List<MbrModels> modelsWithSameName = getModelsByName(name);
@@ -112,7 +116,7 @@ public class ModelServiceImp implements ModelService {
 
 	// 审核是否有重复的输入条件的模型
 	public List<MbrModels> getModelsByInput(
-			List<MbrMetaData> list, int state) {
+			List<MbrInputParameter> list, int state) {
 		List<MbrModels> rList = new ArrayList<MbrModels>();
 		// 在已审核通过的模型中进行 对比，跟待审核模型具有相同的输入参数的模型将被找出
 		for (MbrModels mbrModel : modelDao.findAllModelsByState(state)) {
@@ -125,7 +129,7 @@ public class ModelServiceImp implements ModelService {
 //			for (MbrModelCondition condition : mbrModelConditions) {
 //				sIdSet.add(condition.getMbrMetaData().getId());
 //			}
-			for(MbrMetaData metaData:list){
+			for(MbrInputParameter metaData:list){
 				sIdSet.add(metaData.getId());
 			}
 			if (rIdSet.containsAll(sIdSet) && sIdSet.containsAll(rIdSet)) {
@@ -144,8 +148,8 @@ public class ModelServiceImp implements ModelService {
 	}
 
 	public void sleepModelById(Integer id) {
-		modelDao.sleepModel(id);
-		
+		log.debug("sleepModel"+id);
+		modelDao.sleepModel(id);	
 	}
 
 	@Override

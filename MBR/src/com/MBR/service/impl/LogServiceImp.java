@@ -47,4 +47,9 @@ public class LogServiceImp implements LogService {
 		return list;
 	}
 
+	public List<MbrLog> findLogsByActionAndContent(String content) {
+		List<MbrLog> list = logDao.getLogsByActionAndContent(content);
+		return list;
+	}
+
 }

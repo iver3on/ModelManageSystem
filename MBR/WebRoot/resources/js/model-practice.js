@@ -1,7 +1,10 @@
 var rowCount=1;  //行数默认4行 
 var p = 0;
 var xlength = inputLength;
+var timer;
 $(document).ready(function() { 
+	
+	$("#loading").css("display","none");
   //删除行  
 //添加行 
 $('#addLine').click(function() {
@@ -46,7 +49,26 @@ $('#addLine').click(function() {
 });
 */
 $('#practice').click(function() {
+	$("#myAlertWrong").hide();	
+	$("#loading").css("display","block");
+	$("#stopPractice").show();
+	$("#practice").hide();
+	$("#addLine").hide();
+	run();
 	createPracticeinput();
+	
+});
+$("#stop").click(function(){
+	$("#myAlertWrong").show();	
+	$("#loading").css("display","none");
+	p=0;
+/*	$("div[class=progress-bar]").css("width","0%");*/
+	$("#practice").show();
+	$("#addLine").show();
+	//清除定时器
+	clearTimeout(timer);
+	$("#myModal").modal("hide");
+	$("#stopPractice").hide();
 });
 });
 function delRow(rowIndex){  
@@ -55,16 +77,16 @@ function delRow(rowIndex){
 } 
 
 function run(){
-	p+=5;
-	$("div[class=progress-bar]").css("width",p+"%");
-	$("#x").text(p+"%");
+	p+=1;
+	$("#time").text(p+"秒");
 	if(p<100){
-		var timer=setTimeout("run()",500);
+		timer=setTimeout("run()",1000);
 	}else{
 		alert("训练完毕！");
 		$("#myAlert").show();
 		$("#practice").attr("disabled",true);
 		$("#addLine").attr("disabled",false);
+		$("#stopPractice").hide();
 	}
 }
 

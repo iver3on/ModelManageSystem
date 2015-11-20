@@ -7,10 +7,10 @@ $(document).ready(function() {
 	for ( var i = 0; i < aTable.length; i++) {
 		for ( var j = 0; j < aTable[i].tBodies[0].rows.length; j++) {
 			if (aTable[i].tBodies[0].rows[j].cells[6].innerHTML === '0') { // 这里的8指的是第8列,第8列是审核状态
-				aTable[i].tBodies[0].rows[j].cells[6].innerHTML = "待审核";
+				aTable[i].tBodies[0].rows[j].cells[6].innerHTML = "未使用";
 			}
 			if (aTable[i].tBodies[0].rows[j].cells[6].innerHTML === '1') {
-				aTable[i].tBodies[0].rows[j].cells[6].innerHTML = "通过";
+				aTable[i].tBodies[0].rows[j].cells[6].innerHTML = "使用过";
 			}
 			if (aTable[i].tBodies[0].rows[j].cells[6].innerHTML === '2') {
 				aTable[i].tBodies[0].rows[j].cells[6].innerHTML = "未通过";

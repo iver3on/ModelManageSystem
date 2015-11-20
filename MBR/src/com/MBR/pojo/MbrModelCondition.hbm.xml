@@ -11,7 +11,7 @@
             <column name="id_" />
             <generator class="native" />
         </id>
-        <many-to-one name="mbrMetaData" class="com.MBR.pojo.MbrMetaData">
+        <many-to-one name="mbrMetaData" class="com.MBR.pojo.MbrInputParameter">
             <column name="condition_meta_data_id_" not-null="true" />
         </many-to-one>
         <many-to-one name="mbrModels" class="com.MBR.pojo.MbrModels" fetch="join">

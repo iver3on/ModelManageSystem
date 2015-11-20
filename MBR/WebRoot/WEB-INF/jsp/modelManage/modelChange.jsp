@@ -68,7 +68,7 @@ textarea { /* 禁止文本域被拖动 */
 }
 
 .modal-backdrop.in {
-	filter: alpha(opacity =     50);
+	filter: alpha(opacity =       50);
 	opacity: .5;
 }
 

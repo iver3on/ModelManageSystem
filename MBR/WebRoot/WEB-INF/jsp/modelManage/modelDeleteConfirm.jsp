@@ -77,7 +77,7 @@ body {
 }
 
 .modal-backdrop.in {
-	filter: alpha(opacity =   50);
+	filter: alpha(opacity =     50);
 	opacity: .5;
 }
 </style>
@@ -92,12 +92,43 @@ body {
 				</h3>
 			</div>
 		</div>
+		
 		<div id="myAlert" class="alert alert-warning" style="display:none;">
 			<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>警告！</strong>此模型使用过，请谨慎操作！
 		</div>
+		
 		<div id="myInfo" class="alert alert-info" style="display:none;">
 			<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>提示！</strong>此模型未被使用过，请继续操作！
 		</div>
+		<div id="mySleep" class="alert alert-info" style="display:none;">
+			<a href="#" class="close" data-dismiss="alert">&times;</a> <strong>提示！</strong>此模型已经休眠，请返回！
+		</div>
+		<span id="tag" class="label label-success" style="display: none">使用情况如下:</span>
+		<br>
+		<br>
+		<table id="table" class="table table-bordered table-striped" style="display: none">
+					<thead>
+						<tr>
+
+							<td>动作</td>
+							<td>操作人</td>
+							<td>操作日期</td>
+							<td>内容</td>
+
+						</tr>
+					</thead>
+					<tbody>
+						<c:forEach items="${logList}" var="l">
+							<tr>
+								<td>${l.action }</td>
+								<td>${l.userName }</td>
+								<td>${l.dateTime }</td>
+								<td>${l.content }</td>
+							</tr>
+						</c:forEach>
+					</tbody>
+
+				</table>
 		<p class="p1">是否确认删除？</p>
 		<a class="btn btn-default" href="model/delete" role="button">返回删除页面</a>
 		<button id="deleteConfirm" type="button"

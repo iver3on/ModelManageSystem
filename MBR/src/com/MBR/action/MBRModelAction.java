@@ -14,9 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.MBR.pojo.MbrLog;
 import com.MBR.pojo.MbrModels;
 import com.MBR.service.impl.LogServiceImp;
-import com.MBR.service.impl.MetaDataServiceImp;
+import com.MBR.service.impl.InputParameterServiceImp;
 import com.MBR.service.impl.ModelServiceImp;
 
 /**
@@ -28,7 +29,7 @@ import com.MBR.service.impl.ModelServiceImp;
 public class MBRModelAction {
 	// 自动注入
 	@Autowired
-	private MetaDataServiceImp metaDataService;
+	private InputParameterServiceImp metaDataService;
 	@Autowired
 	private ModelServiceImp modelService;
 	@Autowired
@@ -58,6 +59,7 @@ public class MBRModelAction {
 
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
 	@ResponseBody
+	//@responsebody表示该方法的返回结果直接写入HTTP response body中
 	public String add(String leftList, String username, String name) {
 
 		// leftMap
@@ -82,7 +84,9 @@ public class MBRModelAction {
 	@RequestMapping(value = "/{id}/deleteById", method = RequestMethod.GET)
 	public String deleteConfirm(@PathVariable Integer id, Model model) {
 		MbrModels mbrModel = modelService.getModelById(id);
+		List<MbrLog> logList = logService.findLogsByActionAndContent(mbrModel.getName());
 		model.addAttribute("model", mbrModel); // 将当前节点传到页面
+		model.addAttribute("logList", logList);
 		return "/modelManage/modelDeleteConfirm";
 	}
 
@@ -145,8 +149,9 @@ public class MBRModelAction {
 				getActionName("203"));
 		return "/modelManage/modelChange";
 	}
-
-	@RequestMapping(value = "/exam", method = RequestMethod.GET)
+	
+//审核模型 已删除
+	/*@RequestMapping(value = "/exam", method = RequestMethod.GET)
 	public String exam(Model model) {
 		model.addAttribute("needExamList", modelService.getAllModelsByState(0));
 		model.addAttribute("needExamListLength", modelService
@@ -183,5 +188,5 @@ public class MBRModelAction {
 		logService.addLog("zwb", mbrModel.getName(), new Date(), "205",
 				getActionName("205"));
 		return "redirect:/model/exam";
-	}
+	}*/
 }

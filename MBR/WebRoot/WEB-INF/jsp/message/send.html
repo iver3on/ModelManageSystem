@@ -6,51 +6,57 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
-    <base href="<%=basePath%>">
-    
-    <title>message Receive</title>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
-	<!--
+<head>
+<base href="<%=basePath%>">
+
+<title>message Receive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="This is my page">
+<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
-	<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../../resources/css/rules-query.css">
+<link rel="stylesheet" type="text/css"
+	href="../../resources/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../resources/css/rules-query.css">
 
-		<script type="text/javascript" src="../../resources/js/jquery-1.11.1.min.js"></script>
-		<script src="../../resources/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="../../resources/js/jquery-1.11.1.min.js"></script>
+<script src="../../resources/js/bootstrap.min.js"></script>
 
-		<script type="text/javascript" src="../../resources/js/rules-table-show.js"></script>
-		<script type="text/javascript" src="../../resources/js/rules-query.js"></script>
+<script type="text/javascript"
+	src="../../resources/js/rules-table-show.js"></script>
+<script type="text/javascript" src="../../resources/js/rules-query.js"></script>
 
-  </head>
-  
-  <body>
-		<div class="container-fluid">
-			<div class="row">
-				<div id="header" class="col-sm-12">
-					<h3 class="my-title"><span class="glyphicon glyphicon-search text-primary"></span> 查看消息</h3>
-				</div>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="header" class="col-sm-12">
+				<h3 class="my-title">
+					<span class="glyphicon glyphicon-search text-primary"></span> 查看消息
+				</h3>
 			</div>
-			
-			<div class="row">
-				<div class="col-md-12">
-					<table class="table table-bordered table-striped">
-						<thead>
-							<tr>
-								<td>消息id</td>
-								<td>消息内容</td>
-								<td>发送者</td>
-								<td>创建时间</td>
-							</tr>
-						</thead>
-						<tbody>
-							<!-- <c:forEach items="${allRulesList}" var="rule">
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<td>消息id</td>
+							<td>消息内容</td>
+							<td>发送者</td>
+							<td>创建时间</td>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- <c:forEach items="${allRulesList}" var="rule">
 							<tr>
 								<td>${rule.id }</td>
 								<td>
@@ -71,24 +77,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<td>${rule.state }</td>
 							</tr>
 							</c:forEach> -->
-							<tr>
-								<td>1</td>
-								<td>完成模型输出</td>
-								<td>admin</td>
-								<td>2015-10-23</td>
-								</tr>
-								<tr>
-								<td>2</td>
-								<td>完成模型输出哈哈哈</td>
-								<td>admin</td>
-								<td>2015-10-24</td>
-								</tr>
+						<tr>
+							<td>1</td>
+							<td>完成模型输出</td>
+							<td>admin</td>
+							<td>2015-10-23</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>完成模型输出哈哈哈</td>
+							<td>admin</td>
+							<td>2015-10-24</td>
+						</tr>
 
-						</tbody>
-					</table>
-				</div>
+					</tbody>
+				</table>
 			</div>
-			
 		</div>
-  </body>
+
+	</div>
+</body>
 </html>

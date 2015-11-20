@@ -30,11 +30,39 @@
       <version>2.1</version>
       <scope>provided</scope>
     </dependency>
+    <!--json-lib-->  
+<dependency>  
+    <groupId>net.sf.json-lib</groupId>  
+    <artifactId>json-lib</artifactId>  
+    <version>2.1</version>  
+    <classifier>jdk15</classifier>  
+</dependency> 
+    <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.4.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.4.1.1</version>
+</dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
       <version>3.1.4.RELEASE</version>
     </dependency>
+    <dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-core-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
@@ -71,11 +99,28 @@
         <artifactId>hibernate-jpa-2.0-api</artifactId>
         <version>1.0.0.Final</version>
     </dependency>
-    <dependency>
+    <!-- <dependency>
       <groupId>jaxen</groupId>
       <artifactId>jaxen</artifactId>
       <version>1.1-beta-4</version>
-    </dependency>
+      <exclusions>
+      	<exclusion>
+      		<artifactId>dom4j</artifactId>
+      		<groupId>dom4j</groupId>
+      	</exclusion>
+      </exclusions>
+    </dependency> -->
+   <!--  <dependency>
+	<groupId>dom4j</groupId>
+	<artifactId>dom4j</artifactId>
+	<version>1.6.1</version>
+	<exclusions>
+	<exclusion>
+	<groupId>dom4j</groupId>
+	<artifactId>dom4j</artifactId>
+	</exclusion>
+	</exclusions>
+</dependency> -->
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>

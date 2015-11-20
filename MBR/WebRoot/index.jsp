@@ -182,7 +182,7 @@ $(function(){
 						href="reason/startReason" target="contentFrame">输入参数</a>
 					</li>
 					<li class="guide_words_pos"><a 
-						href="reasoning/result" target="contentFrame">推理结果</a>
+						href="reason/result" target="contentFrame">推理结果</a>
 					</li>
 					<hr>
 					<li class="eneditable_li"><a href="jsp/message/receive.html" target="contentFrame"> <span

@@ -9,7 +9,7 @@ public class MbrModelCondition implements java.io.Serializable {
 	// Fields
 
 	private Integer id;
-	private MbrMetaData mbrMetaData;
+	private MbrInputParameter mbrInputParameter;
 	private MbrModels mbrModels;
 
 	// Constructors
@@ -19,10 +19,10 @@ public class MbrModelCondition implements java.io.Serializable {
 	}
 
 	/** full constructor */
-	public MbrModelCondition(Integer id, MbrMetaData mbrMetaData,
+	public MbrModelCondition(Integer id, MbrInputParameter mbrInputParameter,
 			MbrModels mbrModels) {
 		this.id = id;
-		this.mbrMetaData = mbrMetaData;
+		this.mbrInputParameter = mbrInputParameter;
 		this.mbrModels = mbrModels;
 	}
 
@@ -36,12 +36,12 @@ public class MbrModelCondition implements java.io.Serializable {
 		this.id = id;
 	}
 
-	public MbrMetaData getMbrMetaData() {
-		return this.mbrMetaData;
+	public MbrInputParameter getMbrMetaData() {
+		return this.mbrInputParameter;
 	}
 
-	public void setMbrMetaData(MbrMetaData mbrMetaData) {
-		this.mbrMetaData = mbrMetaData;
+	public void setMbrMetaData(MbrInputParameter mbrInputParameter) {
+		this.mbrInputParameter = mbrInputParameter;
 	}
 
 	public MbrModels getMbrModels() {

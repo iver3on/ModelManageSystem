@@ -1,5 +1,6 @@
 package com.MBR.service;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -8,6 +9,6 @@ import java.util.Map;
  */
 public interface ReasonService {
 
-	void startReason(Map<Integer, String> paraMap);
+	List<String> startReason(Map<Integer, String> paraMap);
 
 }

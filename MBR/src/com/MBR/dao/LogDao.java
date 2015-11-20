@@ -348,4 +348,22 @@ public class LogDao {
 		c.add(Calendar.DATE, 1);
 		return c.getTime();
 	}
+
+	@SuppressWarnings("unchecked")
+	public List<MbrLog> getLogsByActionAndContent(String content) {
+		//ActionID 默认是训练模型和推理模型 这种算是使用过的 301 401
+		String hql = "from MbrLog as l where ";
+		Session session = HibernateUtils.getCurrentSession();
+		List<MbrLog> list1 = new ArrayList<MbrLog>();
+		hql = hql + "l.content like:content and l.actionid =:action";
+		list1 = session.createQuery(hql)
+				.setParameter("action",301)
+				.setParameter("content", "%" + content + "%").list();
+		List<MbrLog> list2 = new ArrayList<MbrLog>();
+		list2 = session.createQuery(hql)
+				.setParameter("action",401)
+				.setParameter("content", "%" + content + "%").list();
+		list1.addAll(list2);
+		return list1;
+	}
 }

@@ -5,7 +5,7 @@ import java.util.List;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
-import com.MBR.pojo.MbrMetaData;
+import com.MBR.pojo.MbrInputParameter;
 import com.MBR.pojo.MbrModelCondition;
 import com.MBR.pojo.MbrModels;
 import com.MBR.util.HibernateUtils;
@@ -23,8 +23,8 @@ public class ModelsDao {
 
 		for (Integer temp : leftList) {
 			MbrModelCondition condition = new MbrModelCondition();
-			MbrMetaData metaData = (MbrMetaData) session.load(
-					MbrMetaData.class, temp);
+			MbrInputParameter metaData = (MbrInputParameter) session.load(
+					MbrInputParameter.class, temp);
 			condition.setMbrMetaData(metaData);
 			condition.setMbrModels(model);
 			session.save(condition);
@@ -67,7 +67,7 @@ public class ModelsDao {
 		Session session = HibernateUtils.getCurrentSession();
 		MbrModels model = (MbrModels) session.get(MbrModels.class, id);
 		model.setManagerName(examName);
-		model.setState(i);
+		model.setUsed(i);
 	}
 
 	public void updateUsed(Integer id, int i) {
@@ -81,7 +81,7 @@ public class ModelsDao {
 		MbrModels model = (MbrModels) session.get(MbrModels.class, id);
 		//设置已休眠3
 		//0是待审核 1是已审核 2是审核不通过
-		model.setState(3);
+		model.setUsed(3);
 	}
 
 	public List<MbrModels> findAllModelsByName(String name) {

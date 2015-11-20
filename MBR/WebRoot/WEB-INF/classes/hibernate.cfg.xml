@@ -54,5 +54,12 @@
 			usage="read-write" collection="com.RBR.javabean.Rules.conclusionSet"/> <class-cache 
 			usage="read-write" class="com.RBR.javabean.Condition"/> <class-cache usage="read-write" 
 			class="com.RBR.javabean.Conclusion"/> -->
+	<mapping resource="com/MBR/pojo/MbrAction.hbm.xml"/>
+	<mapping resource="com/MBR/pojo/MbrLog.hbm.xml"/>
+	<mapping resource="com/MBR/pojo/MbrInputParameter.hbm.xml"/>
+	<mapping resource="com/MBR/pojo/MbrModelCondition.hbm.xml"/>
+	<mapping resource="com/MBR/pojo/MbrModels.hbm.xml"/>
+	
+			
 	</session-factory>
 </hibernate-configuration>

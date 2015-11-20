@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
+	$(".collapse").collapse("show"); 
     /**
      * 录脿脤媒checkbox赂脛卤盲碌脛路陆路篓
      */
 	  $("[name=checkbox]").change(function() {
-		  console.log("checkbox");
 	        $('[exampletr]').remove();
 	        checkboxShowValue(this);
 	    });
@@ -12,6 +12,7 @@ $(document).ready(function() {
      * 碌茫禄梅脤谩陆禄掳麓脜楼脢卤碌脛露炉脳梅
      */
     $('.ok').click(function() {
+    	console.log("点击了创建模型按钮");
         var jsonData = createJsonData();
         console.log(jsonData);
 
@@ -40,10 +41,9 @@ $(document).ready(function() {
  * @param {json} jsonData
  */
 function judgeDataLegal(jsonData) {
-    console.log(jsonData);
     console.log("----------------");
-    if (jsonData.leftMap === "") {
-        console.log("leftMap cannot be empty");
+    if (jsonData.leftList === "") {
+        console.log("leftList cannot be empty");
         $('#leftErrorModal').modal('show');
     } /*else if (jsonData.rightMap === "") {
         console.log("right cannot be empty");

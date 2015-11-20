@@ -8,5 +8,9 @@ $(document).ready(function() {
 	}else if(isUsed==1){
 		$("#myAlert").show();
 		$("#sleepConfirm").show();
+		$("#table").show();
+		$("#tag").show();
+	}else if(isUsed==3){
+		$("#mySleep").show();
 	}
 });

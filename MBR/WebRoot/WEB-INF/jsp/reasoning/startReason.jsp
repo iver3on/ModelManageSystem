@@ -19,9 +19,9 @@
 
 <link href="resources/css/bootstrap.min.css" rel="stylesheet">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="resources/js/jquery-1.11.1.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/jquery-1.11.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="resources/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="resources/js/reason.js"></script>
 <style type="text/css">
 #intro {
@@ -46,40 +46,45 @@ body {
 <body>
 	<div id="intro">选择模型进行推理</div>
 	<form action="xxx" method="post">
-			<div class="row">
-				<div class="col-md-12">
-					<table class="table table-bordered table-striped">
-						<thead>
-							<tr>
-								<td>模型编号	</td>
-								<td>模型名称</td>
-								<td>模型输入参数</td>
-								<td>模型输出参数</td>
-								<td>创建者</td>
-								<td>创建时间</td>
-								<td>审核状态</td>
-								<td>操作</td>
-							</tr>
-						</thead>
-						<tbody>
-							<c:forEach items="${modelList}" var="model">
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<td>模型编号</td>
+							<td>模型名称</td>
+							<td>模型输入参数</td>
+							<td>模型输出参数</td>
+							<td>创建者</td>
+							<td>创建时间</td>
+							<td>模型状态</td>
+							<td>操作</td>
+						</tr>
+					</thead>
+					<tbody>
+						<c:forEach items="${modelList}" var="model">
 							<tr>
 								<td>${model.id }</td>
 								<td>${model.name}</td>
-								<td><c:forEach items="${model.mbrModelConditions}" var="condition">
+								<td><c:forEach items="${model.mbrModelConditions}"
+										var="condition">
 									${condition.mbrMetaData.name }<br>
-									</c:forEach></td>
-								<td>交接坯起始位置<br>长度<br></td>
+									</c:forEach>
+								</td>
+								<td>交接坯起始位置<br>长度<br>
+								</td>
 								<td>${model.userName}</td>
 								<td>${model.createTime}</td>
 								<td>${model.state}</td>
-								<td><a href="reason/${model.id}/reasonPage" class="btn btn-primary" role="button">推理</a></td>
-								</tr>
-							</c:forEach>
-						</tbody>
-					</table>
-				</div>
+								<td><a href="reason/${model.id}/reasonPage"
+									class="btn btn-primary" role="button">推理</a>
+								</td>
+							</tr>
+						</c:forEach>
+					</tbody>
+				</table>
 			</div>
-</form>
+		</div>
+	</form>
 </body>
 </html>

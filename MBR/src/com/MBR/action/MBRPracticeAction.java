@@ -45,7 +45,11 @@ public class MBRPracticeAction {
 	public String practiceModel(@PathVariable Integer id, Model model) {
 		MbrModels models = modelService.getModelById(id);
 		Set<MbrModelCondition> set = models.getMbrModelConditions();
+		modelService.updateUsedById(id, 1);
+		logService.addLog("zwb", models.getName(), new Date(), "401",
+				"模型训练");
 		model.addAttribute("inputPara", set);
+		model.addAttribute("id", id);
 		model.addAttribute("inputParaSize", set.size());
 		model.addAttribute("model",models);
 		return "reasoning/practiceModel";
@@ -58,6 +62,7 @@ public class MBRPracticeAction {
 		Map<Integer, String> paraMap = new HashMap<Integer, String>();
 		MbrModels models = modelService.getModelById(id);
 		//加入日志
+		modelService.updateUsedById(id, 1);
 		logService.addLog("zwb", models.getName(), new Date(), "401",
 				"模型训练");
 		Set<MbrModelCondition> set = models.getMbrModelConditions();

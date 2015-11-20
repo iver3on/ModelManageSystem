@@ -4,13 +4,14 @@ $(document).ready(function() {
 	// 遍历表格
 	console.log("11111")
 	var aTable = $(".table"); // 选中table，可能会有两张表格
+	
 	for ( var i = 0; i < aTable.length; i++) {
 		for ( var j = 0; j < aTable[i].tBodies[0].rows.length; j++) {
-			if (aTable[i].tBodies[0].rows[j].cells[5].innerHTML === '0') { // 这里的8指的是第8列,第8列是审核状态
-				aTable[i].tBodies[0].rows[j].cells[5].innerHTML = "待审核";
+			if (aTable[i].tBodies[0].rows[j].cells[5].innerHTML === '0') {
+				aTable[i].tBodies[0].rows[j].cells[5].innerHTML = "未使用";
 			}
 			if (aTable[i].tBodies[0].rows[j].cells[5].innerHTML === '1') {
-				aTable[i].tBodies[0].rows[j].cells[5].innerHTML = "通过";
+				aTable[i].tBodies[0].rows[j].cells[5].innerHTML = "使用过";
 			}
 			if (aTable[i].tBodies[0].rows[j].cells[5].innerHTML === '2') {
 				aTable[i].tBodies[0].rows[j].cells[5].innerHTML = "未通过";

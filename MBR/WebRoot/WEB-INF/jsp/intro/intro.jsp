@@ -40,9 +40,10 @@
 
 <body>
 	<h4 id="title2">MBR系统简述</h4>
-	<img alt="" src="./resources/pic/MBRV2.svg" class="img-responsive">
+	<img alt="" src="./resources/pic/index.svg" class="img-responsive">
 	<div id="words">
 		<p>模型推理系统应用模糊理论实现各控制单元参数的模糊化处理；采用MBR来研究连铸工艺流程单元合理的推理模型，形成MBR模型库。我们建立基于模型推理子系统来推理钢水成分的变化和交接坯的起始位置，可以提高切除的精度，从而降低工程成本。
+		
 	</div>
 </body>
 </html>

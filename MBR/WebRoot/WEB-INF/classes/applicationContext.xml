@@ -1,0 +1,82 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd 
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd 
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-3.1.xsd 
+		http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-3.1.xsd 
+		http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx-3.1.xsd ">
+	<!-- 使用组件扫描 -->
+	<!-- 将action扫描出来，在spring容器中进行注册，自动对action在spring容器中进行配置 -->
+	<!-- 使Spring支持自动检测组件，如注解的Controller -->   
+	<context:component-scan base-package="com.MBR.action" />
+	<context:component-scan base-package="com.MBR.service.impl" />
+	<context:component-scan base-package="com.MBR.dao" />
+	<mvc:annotation-driven/>
+	<!-- <mvc:annotation-driven/>  是一种简写形式，可以让初学者快速成应用默认的配置方案，
+	会默认注册 DefaultAnnotationHandleMapping以及AnnotionMethodHandleAdapter 
+	这两个 Bean, 这两个 Bean ，前者对应类级别， 后者对应到方法级别；
+	上在面的 DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter 
+	是 Spring 为 @Controller 分发请求所必需的--> 
+
+	<!--注解映射器HandlerMapping -->
+	<!-- <bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" /> -->
+
+	<!--注解适配器HandlerAdapter -->
+	<!-- <bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+	</bean> -->
+
+
+	<!-- 视图解析器ViewResolver -->
+	<!-- 解析jsp，默认支持jstl -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- 访问静态文件 -->
+	<mvc:default-servlet-handler />
+
+	<!-- 为了JSON配置 -->
+	<!--- StringHttpMessageConverter bean -->
+<!-- 	<bean id="stringHttpMessageConverter"
+		class="org.springframework.http.converter.StringHttpMessageConverter" />
+
+	启动Spring MVC的注解功能，完成请求和注解POJO的映射
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="mappingJacksonHttpMessageConverter" />
+				新增的StringMessageConverter bean
+				<ref bean="stringHttpMessageConverter" />
+				<ref bean="jsonHttpMessageConverter" />
+				<ref bean="formHttpMessageConverter" />
+			</list>
+		</property>
+	</bean> -->
+	
+<!-- 网上看到的其他配置方法	<bean
+        class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <bean
+                    class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
+            </list>
+        </property>
+    </bean> -->
+    
+    
+
+</beans>

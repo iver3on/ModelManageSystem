@@ -110,7 +110,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					value="搜索">
 			</form>
 		</div>
-		
+
 		<span style="width: 25px">${logPage.searchInfo}</span>
 		<div class="row">
 			<div class="col-md-12">
@@ -137,7 +137,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</tbody>
 
 				</table>
-				<br/>
+				<br />
 				<table border='0' cellpadding='0' cellspacing='0' align="center">
 					<tr>
 						<td width='98%' align="right">共<span style='color:#FF0000'>${logPage.sum}</span>条记录&nbsp;&nbsp;&nbsp;&nbsp;
@@ -167,32 +167,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									</c:if>
 								</c:when>
 								<c:otherwise>
-								 	<c:if test="${logPage.index==1}">
-						                     <!--   首&nbsp;&nbsp;&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;上一页&nbsp;&nbsp;&nbsp;&nbsp; -->
-						                </c:if>
+									<c:if test="${logPage.index==1}">
+										<!--   首&nbsp;&nbsp;&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;上一页&nbsp;&nbsp;&nbsp;&nbsp; -->
+									</c:if>
 									<c:if test="${logPage.index!=1}">
-						                       <a style='color: red' href="log/query/1/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search" >首&nbsp;&nbsp;页</a>
+										<a style='color: red'
+											href="log/query/1/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">首&nbsp;&nbsp;页</a>
 						                       &nbsp;&nbsp;&nbsp;&nbsp;
-						                       <a style='color: red' href="log/query/${logPage.index-1}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">上一页</a>
-						                       &nbsp;&nbsp;&nbsp;&nbsp;
-						                </c:if>
-									<c:if test="${logPage.index >= logPage.pageSum}&&${logPage.index!=1}">
-						                    <a style='color: red' href="log/query/1/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search" >首&nbsp;&nbsp;页</a>
-						                       &nbsp;&nbsp;&nbsp;&nbsp;
-						                       <a style='color: red' href="log/query/${logPage.index-1}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">上一页</a>
+						                       <a style='color: red'
+											href="log/query/${logPage.index-1}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">上一页</a>
 						                       &nbsp;&nbsp;&nbsp;&nbsp;
 						                </c:if>
-									   <c:if test="${logPage.index < logPage.pageSum}">
-						                       <a style='color: red' href="log/query/${logPage.index+1}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">下一页</a>
+									<c:if
+										test="${logPage.index >= logPage.pageSum}&&${logPage.index!=1}">
+										<a style='color: red'
+											href="log/query/1/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">首&nbsp;&nbsp;页</a>
 						                       &nbsp;&nbsp;&nbsp;&nbsp;
-						                       <a style='color: red' href="log/query/${logPage.pageSum}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">末&nbsp;&nbsp;页</a>
-						                       <br/>
-						                      <!--   <a>${logPage.searchName}</a>-->
-						               </c:if>
+						                       <a style='color: red'
+											href="log/query/${logPage.index-1}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">上一页</a>
+						                       &nbsp;&nbsp;&nbsp;&nbsp;
+						                </c:if>
+									<c:if test="${logPage.index < logPage.pageSum}">
+										<a style='color: red'
+											href="log/query/${logPage.index+1}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">下一页</a>
+						                       &nbsp;&nbsp;&nbsp;&nbsp;
+						                       <a style='color: red'
+											href="log/query/${logPage.pageSum}/${logPage.searchName}/${logPage.actionId}/${logPage.startTime}/${logPage.endTime}/${logPage.content}/search">末&nbsp;&nbsp;页</a>
+										<br />
+										<!--   <a>${logPage.searchName}</a>-->
+									</c:if>
 								</c:otherwise>
 
-							</c:choose>
-						</td>
+							</c:choose></td>
 					</tr>
 				</table>
 			</div>

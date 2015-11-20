@@ -161,6 +161,8 @@ public class MBRLogAction {
 		return s;
 	}
 
+	
+	//复用RBR
 	@RequestMapping(value = "/query/{index}/{searchName}/{actionId}/{timedate}/{timedateLate}/{content}/search", method = RequestMethod.GET)
 	public String logSearch(@PathVariable String index,
 			@PathVariable String searchName, @PathVariable String actionId,
